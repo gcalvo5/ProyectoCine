@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "443606378360",
+    "project_id": "proyectocine-c3722",
+    "storage_bucket": "proyectocine-c3722.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443606378360:android:e8517bf887b3bbfe86ca8d",
+        "android_client_info": {
+          "package_name": "com.example.testdrawerlayout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443606378360-1h1nin416lkis2p02p3ma27u07hb9f44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYPTVZ_dw4LdKJ2ySLeFMWbV9Nv2M9-lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443606378360-1h1nin416lkis2p02p3ma27u07hb9f44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TestDrawerLayout</string>
+    <string name="home_menu">Home</string>
+    <string name="menu_bt">Menu button</string>
+    <string name="config_bt">Config button</string>
+    <string name="MainTitle">Home</string>
+
+    <string name="home_menu_button">Home</string>
+    <string name="peliculas_menu_button">Peliculas</string>
+    <string name="series_menu_button">Series</string>
+    <string name="animes_menu_button">Animes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">home</string>
+    <string name="pelicula">pelicula</string>
+    <string name="element_text">texto</string>
+    <string name="comentario">comentario</string>
+</resources>

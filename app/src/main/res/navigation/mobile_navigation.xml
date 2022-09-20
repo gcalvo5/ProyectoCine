@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_authFragment">
+    <action android:id="@+id/action_global_pelicula_individual"
+        app:destination="@id/nav_pelicula_individual">
+        <argument
+            android:name="id_pelicula"
+            app:argType="string" />
+    </action>
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.testdrawerlayout.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_authFragment"
+        android:name="com.example.testdrawerlayout.AuthFragment"
+        android:label="auth"
+        tools:layout="@layout/fragment_auth" />
+    <fragment
+        android:id="@+id/nav_registerFragment"
+        android:name="com.example.testdrawerlayout.RegisterFragment"
+        android:label="auth"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/nav_pelicula"
+        android:name="com.example.testdrawerlayout.PeliculaFragment"
+        android:label="@string/pelicula"
+        tools:layout="@layout/fragment_pelicula" />
+    <fragment
+        android:id="@+id/nav_pelicula_individual"
+        android:name="com.example.testdrawerlayout.PeliculaIndividualFragment"
+        android:label="@string/pelicula"
+        tools:layout="@layout/fragment_pelicula_individual" >
+    </fragment>
+
+</navigation>
